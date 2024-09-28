@@ -18,7 +18,7 @@ We develop an end-to-end frequency domain training method (Fig. 3) to build conv
 
 Figure 3 | Training in the spatial frequency domain involves performing a Fast Fourier Transform (FFT) on the object to obtain its frequency domain distribution, which is multiplied by the OTF derived from the Normalized Autocorrelation Function (Acorr) of the pupil phase distribution. An Inverse Fast Fourier Transform (IFFT) is then performed to generate the final image, which is flattened and fed into the digital backend for classification. The black and orange arrows represent the forward model and the backpropagation-based end-to-end training process, respectively.
 
-## training and test
+## Training and Test
 
 ACNN_no_parallel_acceleration.ipynb includes training and testing process, which 16 optical kernels are calculated successively. This method performs better on Fashion-MNIST and CIFAR-10 datasets.
 
