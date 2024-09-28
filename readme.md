@@ -20,9 +20,9 @@ Figure 3 | Training in the spatial frequency domain involves performing a Fast F
 
 ## Training and Test
 
-ACNN_no_parallel_acceleration.ipynb includes training and testing process, which 16 optical kernels are calculated successively. This method performs better on Fashion-MNIST and CIFAR-10 datasets.
+ACNN_no_parallel_acceleration.ipynb includes training and testing process, where 16 optical kernels are calculated successively. This method performs better on Fashion-MNIST and CIFAR-10 datasets.
 
-ACNN_with_parallel_acceleration.ipynb includes training and testing process, which 16 optical kernels are calculated synchronously. This method is much quick. It is mainly used to train on the MNIST dataset.
+ACNN_with_parallel_acceleration.ipynb includes training and testing process, where 16 optical kernels are calculated synchronously. This method is much quick. It is mainly used to train on the MNIST dataset.
 
 ## Acceleration of Autocorrelation Function 
 
