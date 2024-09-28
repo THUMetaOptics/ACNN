@@ -2,9 +2,9 @@
 
 ## introduction
 
-![pic1](.\pic\pic1.png)
+![pic1](https://github.com/THUMetaOptics/ACNN/blob/main/pic/pic1.png)
 
-**Figure 1 |  ** Schematic of the system using a metasurface to perform multi-kernel convolution of the input image and project all features to the sensor. The features are then fed into a digital backend for classification.
+** Figure 1 | ** Schematic of the system using a metasurface to perform multi-kernel convolution of the input image and project all features to the sensor. The features are then fed into a digital backend for classification.
 
 The ACNN consists of a metasurface-based convolution layer and a digital backend, as shown in Fig.1. Metasurface performs multi-kernel optical convolution of the input image. After optical convolution, we perform ReLU activation, max pooling, flattening, and dropout operations on the 8 feature maps. The resulting output is then fed into a fully connected layer for classification, as shown in Fig.2.
 
